@@ -5,7 +5,7 @@ $(window).load(function () {
        $(".audi").trigger('play');
        navigator.vibrate(100000);
     });
-    $('.hover').click(function(){
+    $('.hovr').click(function(){
         $('.hovr').hide();
         $(".audi").trigger('pause');
         navigator.vibrate(0);
